@@ -1,0 +1,104 @@
+
+
+ /* Extra small devices (phones, 480px and down) */
+ @media (max-width: 480px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        background: rgba(219, 119, 119, 0.44);
+        
+    }
+    /* ----------------------------------- */
+
+
+    .heading-title{
+        padding: 50px 0;
+       
+       
+    }
+    .upper_text{
+        font-size: 2rem;
+        line-height: 5rem;
+       
+    }
+    .under_text{
+        font-size: 1rem;
+        padding: 10px;
+        
+    }
+    /* ----------------------------------- */
+    .we-are {
+        
+       margin: 0;
+        
+    }
+    .photo-block {
+        margin: 0;
+        padding: 15px;
+       
+    }
+    .first_photo {
+        opacity: 0.8;
+        margin: 0;
+        
+    }
+    .text-block {
+        margin: 0;
+    }
+    .article {
+        margin: 0;
+    }
+    .heading {
+
+    }
+    .description {
+    }
+    .second_block {
+        display: none;
+    }
+    .third_photo {
+        display: none;
+    }
+    .second-desk {
+        display: none;
+    }
+
+ }
+
+ /* Small devices (portrait tablets and large phones, 480px and up) */
+
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media  (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        background: rgba(204, 155, 155, 0.44);
+    }
+
+   
+   
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media (max-width: 992px) {
+ .container {
+        width: 1182px;
+        margin: 0 auto;
+        background: rgba(109, 108, 108, 0.44);
+    }
+
+   
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media (min-width: 1200px) {
+    .container {
+        width: 1182px;
+        margin: 0 auto;
+        background: rgba(109, 108, 108, 0.44);
+    }
+
+   
+
+ } 
